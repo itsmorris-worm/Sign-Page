@@ -513,6 +513,14 @@ Responsive
     font-weight: 530;
     font-size: 15px;
   }
+  header .log {
+    height: 150px;
+    width: 150px;
+    top: 50px;
+    right: 50px;
+    z-index: 9099;
+    opacity: .9;
+  }
 
   .thumb {
     bottom: 70%;
@@ -635,11 +643,11 @@ Responsive
     font-size: 12px;
     font-weight: 600;
     padding-left: 35px;
-    transform: translateY(-70px) translateX(-34px);
+    transform: translateY(-70px) translateX(-32px);
   }
 
   .thumb li a:hover {
-    transform: translateY(-70px) translateX(-34px);
+    transform: translateY(-70px) translateX(-32px);
   }
   .content .textBox .ch {
     color: var(--text-black-900);
@@ -653,34 +661,36 @@ Responsive
     height: 70px;
   }
 
-  @media (max-width: 521px){
+  @media (max-width: 457px){
     .content .textBox h2{
       font-size: 0.8em;
     }
     .content .textBox h2 span {
-      font-size: 2.2em;
+      font-size: 1.8em;
     }
     .content .textBox h3{
-      font-size: 1em;
+      font-size: 1.1em;
     }
+    
     .thumb li img{
-      width: 57px;
+      margin-top:5px;
+      width: 52px;
     }
     .thumb li a {
       font-size: 10px;
-      font-weight: 700;
+      font-weight: 800;
       padding-left: 35px;
-      transform: translateY(-70px) translateX(-34px);
+      transform: translateY(-70px) translateX(-30px);
     }
   
     .thumb li a:hover {
-      transform: translateY(-70px) translateX(-34px);
+      transform: translateY(-70px) translateX(-30px);
     }
     .content .textBox .ch {
       color: var(--text-black-900);
       font-family: sans-serif;
       font-weight: 570;
-      font-size: .77em;
+      font-size: .8em;
     }
     .content .imgBox .facebooks {
       top: -28.5%;
