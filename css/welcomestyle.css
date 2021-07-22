@@ -165,7 +165,8 @@ header ul li a {
   display: inline-block;
   margin-top: 20px;
   padding: 14px 43px;
-  background: linear-gradient(-12deg, var(--bg-fav-102), var(--bg-black-155));
+  /* background-color: red; */
+  background: linear-gradient(-12deg, var(--bg-fav-103), var(--bg-black-155));
   color: #fff;
   border-radius: 40px;
   font-weight: 500;
@@ -335,9 +336,7 @@ Responsive
   header {
     padding: 20px;
   }
-  header .logo {
-    max-width: 60px;
-  }
+ 
   header ul {
     display: none;
   }
@@ -656,16 +655,16 @@ Responsive
 
   @media (max-width: 521px){
     .content .textBox h2{
-      font-size: 0.7em;
+      font-size: 0.8em;
     }
     .content .textBox h2 span {
       font-size: 2.2em;
     }
     .content .textBox h3{
-      font-size: .8em;
+      font-size: 1em;
     }
     .thumb li img{
-      width: 45px;
+      width: 57px;
     }
     .thumb li a {
       font-size: 10px;
@@ -681,13 +680,12 @@ Responsive
       color: var(--text-black-900);
       font-family: sans-serif;
       font-weight: 570;
-      font-size: .75em;
+      font-size: .77em;
     }
     .content .imgBox .facebooks {
       top: -28.5%;
       right: 35px;
       height: 70px;
     }
-  
+  }
 }
-
