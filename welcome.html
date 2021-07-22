@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font awesome-->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
+    <!---main css-->
+    <link rel="stylesheet" type="text/css" href="/css/welcomestyle.css" />
+    <!--footer css-->
+  </head>
+  <body>
+    <!--home section start-->
+    <section>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <!--header start-->
+      <header>
+        <a href="#"><img src="/img/logo0.svg" class="logo" /></a>
+
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <a class="logoText">Hello, Encipherers!</a>
+        <ul class="navigation">
+          <li>
+            <a href="welcome.html" class="col" onclick="myalert()">Worm</a>
+          </li>
+          <img src="/img/back.svg" class="log" />
+          <li><a href="yourlecture.html" class="col">Lecture</a>
+          </a></li>
+          <li><a href="yournotes.html" class="col">Notes</a></li>
+
+          <li>
+            <a href="mailto: chandan610sharma@outlook.com" class="col"
+              >Contact</a
+            >
+          </li>
+          <li><a href="/index.html" class="col">Logout</a></li>
+        </ul>
+      </header>
+      <!--header end-->
+
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            <strong
+              ><b><span>Practice, Practice and Practice!</span></b></strong
+            ><br />"One day all your hardwork works, those early mornings and
+            late nights will pay off. "
+          </h2>
+          <br />
+          <h3><b>Motivate Yourself !</b></h3>
+          <p>
+            <li class="ch">
+              <i>
+                "If happiness is your goal, then coding should be your
+                priority."
+              </i>
+            </li>
+            <br />
+
+            <li class="ch">
+              <i>
+                "Don't worry if it doesn't work the first time, call it version
+                1.0 and upgrade."
+              </i>
+            </li>
+            <br />
+
+            <li class="ch">
+              <i>
+                "There are two ways to write an error-free code; only the third
+                works."
+              </i>
+            </li>
+            <br />
+
+            <li class="ch">
+              <i>
+                "Clean code always looks like it was written by someone who
+                cares."
+              </i>
+            </li>
+            <br />
+
+            <li class="ch">
+              <i>
+                "Once a son asked his father(a programmer) why the sun rises in
+                the east, and set in the west. His response? It works, don't
+                touch!"
+              </i>
+            </li>
+            <br />
+          </p>
+          <a href="practice.html">Practice</a>
+        </div>
+        <div class="imgBox">
+          <img src="/img/google.png" class="facebooks" />
+        </div>
+      </div>
+      <!--thumb section start-->
+      <ul class="thumb" style="list-style: none">
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/google.png');" />
+          <a href="https://en.wikipedia.org/wiki/Google"> KYC</a>
+        </li>
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/netflex.png')" /><a
+            href="https://en.wikipedia.org/wiki/Netflix"
+            >KYC</a
+          >
+        </li>
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/amazon.png')" /><a
+            href="https://en.wikipedia.org/wiki/Amazon_(company)"
+            >KYC</a
+          >
+        </li>
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/apple.png')" /><a
+            href="https://en.wikipedia.org/wiki/Apple_Inc."
+            >KYC</a
+          >
+        </li>
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/microsoft.png')" /><a
+            href="https://en.wikipedia.org/wiki/Microsoft"
+            >KYC</a
+          >
+        </li>
+        <li>
+          <img src="/img/lg.svg" onclick="imgSlider('/img/facebook.png')" /><a
+            href="https://en.wikipedia.org/wiki/Facebook"
+            >KYC</a
+          >
+        </li>
+      </ul>
+      <!--thumb section end-->
+    </section>
+    <!--home section end-->
+
+    <!--welcomejs script start-->
+    <script type="text/javascript">
+      function myalert() {
+        alert(
+          "Hi Encipher, I'm morris worm.\n" +
+            "I know it's odd but developers love to call me that." +
+            " I just made this platform for the people like us. " +
+            "You can click on the Practice, Lecture or the Notes. I brings out here the best possible materials available on internet." +
+            " It's totally free, and specially built for learning purpose."
+        );
+
+        // document.body.style.cursor = "wait";
+      }
+
+      function imgSlider(anything) {
+        document.querySelector(".facebooks").src = anything;
+      }
+
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        var navigation = document.querySelector(".navigation");
+
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+
+    <!--welcomejs script end-->
+  </body>
+</html>
