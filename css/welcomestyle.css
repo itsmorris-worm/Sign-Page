@@ -358,6 +358,7 @@ Responsive
     top: 150px;
     right: -15px;
     opacity: 0.2;
+    z-index: -1;
   }
   .toggle {
     position: relative;
