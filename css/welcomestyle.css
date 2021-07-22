@@ -885,7 +885,7 @@ Responsive
       height: 60px;
     }
   }
-  @media (max-width: 415px){
+  @media (max-width: 399px){
    
     .content .textBox h2{
       font-size: 0.7em;
