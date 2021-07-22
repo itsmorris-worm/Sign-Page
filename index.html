@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font awesome-->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!---main css-->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <!--sign in sign up-->
+        <div class="signin-signup">
+          <!--form start-->
+          <form action="/subpage/welcome.html" class="sign-in-form">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="UserHandle" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid ho2" />
+
+            <p class="social-text">
+              Create your account on these websites before login here.
+            </p>
+            <div class="code-media">
+              <a
+                href="https://leetcode.com/accounts/login/?next=/profile/account/"
+                target="_blank"
+                class="code-icon"
+              >
+                <span
+                  class="iconify"
+                  data-icon="simple-icons:leetcode"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://practice.geeksforgeeks.org/"
+                target="_blank"
+                class="code-icon"
+              >
+                <span
+                  class="iconify"
+                  data-icon="simple-icons:geeksforgeeks"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://www.hackerrank.com/auth/login?h_l=body_middle_left_button&h_r=login"
+                target="_blank"
+                class="code-icon"
+              >
+                <span
+                  class="iconify"
+                  data-icon="simple-icons:hackerrank"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://www.hackerearth.com/login/"
+                target="_blank"
+                class="code-icon"
+              >
+                <span
+                  class="iconify"
+                  data-icon="simple-icons:hackerearth"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://www.interviewbit.com/users/sign_in/"
+                target="_blank"
+                class="code-icon"
+              >
+                <i class="fa fa-sitemap"></i>
+              </a>
+            </div>
+          </form>
+          <!--form end-->
+
+          <!--form start-->
+          <form action="" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="UserHandle" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Signup" class="btn solid ho3" />
+
+            <p class="social-text">
+              Welcome Coders! Please signup to start your coding journey.
+            </p>
+            <p class="social-text">MADE IN INDIA</p>
+            <div class="code-media">
+              <a href="#" class="code-icon">
+                <span
+                  class="iconify"
+                  data-icon="emojione-v1:flag-for-india"
+                  data-inline="false"
+                ></span>
+              </a>
+            </div>
+          </form>
+
+          <!--form end-->
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <!--panel start-->
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Hello Encipherers!</h3>
+            <p>
+              Hope I didn't disturb you while you were coding. I'm Chandan
+              Sharma, the developer and I just wanted to welcome you all on this
+              platform. Signup now to enjoy the thriving journey of coding from
+              beginning to placement.
+            </p>
+            <button class="btn transparent ho1" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/welcomelogin.svg" class="image" alt="" />
+        </div>
+        <!--panel end-->
+
+        <!--panel start-->
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Hungry ?</h3>
+            <p>
+              Here are some delicious problem sets on the table waiting for you.
+              Signin to enjoy its enticing flavours and the amazing toppings
+              which do not allow you to forget the flavour you tasted once.
+            </p>
+            <button class="btn transparent ho1" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img
+            src="img/filllogin.svg"
+            style="height: 350px"
+            class="image"
+            alt=""
+          />
+        </div>
+        <!--panel end-->
+      </div>
+    </div>
+
+    <!--main js start-->
+    <script src="/js/main.js"></script>
+    <!--main js end-->
+  </body>
+</html>
