@@ -351,15 +351,7 @@ Responsive
   header .log {
     display: none;
   }
-  header .lo {
-    position: absolute;
-    height: 370px;
-    width: 400px;
-    top: 150px;
-    right: -15px;
-    opacity: 0.2;
-    z-index: -1;
-  }
+  
   .toggle {
     position: relative;
     top: 5px;
@@ -402,6 +394,15 @@ Responsive
     color: white;
     font-size: 30px;
     font-weight: 600;
+  }
+  header .lo {
+    position: absolute;
+    height: 370px;
+    width: 400px;
+    top: 150px;
+    right: -15px;
+    opacity: 0.2;
+    z-index: -1;
   }
   header ul li {
     font-size: 1.8em;
@@ -840,7 +841,7 @@ Responsive
       position: absolute;
       height: 300px;
       width: 260px;
-      top: 190px;
+      top: 200px;
       right: -5px;
       opacity: 0.2;
     }
