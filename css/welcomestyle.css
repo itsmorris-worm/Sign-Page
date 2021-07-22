@@ -853,7 +853,7 @@ Responsive
       font-size: 0.75em;
     }
     .content .textBox h2 span {
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
     .content .textBox h3{
       font-size: 1em;
@@ -888,7 +888,7 @@ Responsive
   @media (max-width: 399px){
    
     .content .textBox h2{
-      font-size: 0.7em;
+      font-size: 0.75em;
     }
     .content .textBox h2 span {
       font-size: 1.6em;
@@ -916,7 +916,7 @@ Responsive
       color: var(--text-black-900);
       font-family: sans-serif;
       font-weight: 540;
-      font-size: .7em;
+      font-size: .72em;
     }
     .content .imgBox .facebooks {
       top: -28.5%;
