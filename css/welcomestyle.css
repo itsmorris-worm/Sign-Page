@@ -249,6 +249,13 @@ header ul li a {
   transform: translateY(-30px);
 }
 
+.reset {
+  position: absolute;
+  top: 35%;
+  right: -120px;
+  opacity: 0;
+}
+
 .circle1 {
   position: absolute;
   top: 0;
