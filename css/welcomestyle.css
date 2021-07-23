@@ -96,10 +96,10 @@ header .logoText {
 }
 .log {
   position:absolute;
-  height: 800px;
-  width: 850px;
-  right: 60%;
-  top: 40%;
+  height: 900px;
+  width: 950px;
+  right: 80%;
+  top: -550%;
   opacity: 0.25;
 }
 
