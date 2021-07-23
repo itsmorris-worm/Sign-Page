@@ -367,13 +367,16 @@ Responsive
   }
   .toggle.active {
     position: fixed;
-    top: 34px;
-    right: 20px;
+    top: 80px;
+    right: 40%;
+    height: 500px;
+    width: 500px;
     background: url(cross.png);
-    background-size: 30px;
+    background-size: 130%;
     background-position: center;
     background-repeat: no-repeat;
-    filter: invert(1);
+    /* filter: invert(1); */
+    opacity: 0;
   }
   header ul.navigation.active {
     position: fixed;
@@ -385,10 +388,10 @@ Responsive
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--text-black-700);
+    background-color: var(--text-black-900);
     color: var(--bg-black-50);
     z-index: 10;
-    opacity: .98;
+    opacity: .9;
   }
   header ul.navigation.active .col {
     color: white;
@@ -397,11 +400,12 @@ Responsive
   }
   header .lo {
     position: absolute;
-    height: 370px;
+    height: 350px;
     width: 400px;
     top: 150px;
-    right: -15px;
-    opacity: 0.2;
+    right: 70px;
+    padding-right: 10px;
+    opacity: 0.25;
     z-index: -1;
   }
   header ul li {
@@ -481,61 +485,22 @@ Responsive
 @media (max-width: 1000px){
   header .lo {
     position: absolute;
-    height: 340px;
+    height: 380px;
     width: 380px;
-    top: 170px;
-    right: -5px;
+    top: 140px;
+    right: 75px;
     opacity: 0.2;
   }
 }
-@media (max-width: 982px){
+
+@media (max-width: 970px){
   header .lo {
-    position: absolute;
-    height: 340px;
-    width: 340px;
-    top: 170px;
-    right: 10px;
-    opacity: 0.2;
+    right: 60px;
   }
 }
-@media (max-width: 967px){
+@media (max-width: 905px){
   header .lo {
-    position: absolute;
-    height: 340px;
-    width: 340px;
-    top: 170px;
-    right: 5px;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 944px){
-  header .lo {
-    position: absolute;
-    height: 340px;
-    width: 340px;
-    top: 170px;
-    right: 0px;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 918px){
-  header .lo {
-    position: absolute;
-    height: 320px;
-    width: 380px;
-    top: 180px;
-    right: -25px;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 899px){
-  header .lo {
-    position: absolute;
-    height: 320px;
-    width: 380px;
-    top: 180px;
-    right: -33px;
-    opacity: 0.2;
+    right: 40px;
   }
 }
 @media (max-width: 880px) {
@@ -581,62 +546,25 @@ Responsive
     height: 100px;
   }
 }
-@media (max-width: 865px){
-  header .lo {
-    position: absolute;
-    height: 320px;
-    width: 380px;
-    top: 180px;
-    right: -40px;
-    opacity: 0.2;
-  }
-}
+
 @media (max-width: 837px){
   header .lo {
     position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 190px;
-    right: -25px;
+    height: 360px;
+    width: 360px;
+    top: 150px;
+    right: 35px;
     opacity: 0.2;
   }
 }
-@media (max-width: 815px){
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 185px;
-    right: -28px;
-  }
-}
-@media (max-width: 799px){
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 180px;
-    right: -35px;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 762px){
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 180px;
-    right: -45px;
-    opacity: 0.2;
-  }
-}
+
 @media (max-width: 725px){
   header .lo {
     position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 180px;
-    right: -57px;
+    height: 35s0px;
+    width: 310px;
+    top: 160px;
+    right: 37px;
     opacity: 0.2;
   }
 }
@@ -651,14 +579,6 @@ Responsive
   .content .textBox .ch {
     font-weight: 530;
     font-size: 15px;
-  }
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 340px;
-    top: 180px;
-    right: -47px;
-    opacity: 0.2;
   }
 
   .thumb {
@@ -701,24 +621,11 @@ Responsive
   }
 }
 
-@media (max-width: 645px){
+@media (max-width: 600px){
   header .lo {
-    position: absolute;
-    height: 310px;
-    width: 320px;
-    top: 180px;
-    right: -45px;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 595px){
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 300px;
-    top: 180px;
-    right: -45px;
-    opacity: 0.2;
+    height: 350px;
+    width: 280px;
+    right: 35px;
   }
 }
 @media (max-width: 575px) {
@@ -755,12 +662,9 @@ Responsive
 @media (max-width: 555px){
 
   header .lo {
-    position: absolute;
-    height: 310px;
-    width: 280px;
-    top: 190px;
-    right: -43px;
-    opacity: 0.2;
+    height: 400px;
+    top: 150px;
+    right: 15px;
   }
   .content .textBox h2{
     font-size: 0.75em;
@@ -794,14 +698,6 @@ Responsive
   }
 }
 @media (max-width: 521px){
-  header .lo {
-    position: absolute;
-    height: 310px;
-    width: 280px;
-    top: 190px;
-    right: -50px;
-    opacity: 0.2;
-  }
   .content .textBox h2{
     font-size: 0.8em;
   }
@@ -836,14 +732,12 @@ Responsive
     height: 70px;
   }
 }
-  @media (max-width: 480px){
+  @media (max-width: 490px){
     header .lo {
-      position: absolute;
-      height: 300px;
-      width: 260px;
-      top: 220px;
-      right: -5px;
-      opacity: 0.3;
+      height: 350px;
+      width: 250px;
+      top: 190px;
+      right: 10px;
     }
   }
 
@@ -853,10 +747,10 @@ Responsive
       font-size: 0.75em;
     }
     .content .textBox h2 span {
-      font-size: 1.8em;
+      font-size: 1.6em;
     }
     .content .textBox h3{
-      font-size: 1em;
+      font-size: 1.1em;
     }
     
     .thumb li img{
@@ -885,10 +779,18 @@ Responsive
       height: 60px;
     }
   }
+  @media (max-width: 415px){
+    header .lo {
+      height: 350px;
+      width: 205px;
+      top: 150px;
+      right: 10px;
+    }
+  }
   @media (max-width: 399px){
    
     .content .textBox h2{
-      font-size: 0.75em;
+      font-size: 0.7em;
     }
     .content .textBox h2 span {
       font-size: 1.6em;
@@ -916,11 +818,19 @@ Responsive
       color: var(--text-black-900);
       font-family: sans-serif;
       font-weight: 540;
-      font-size: .72em;
+      font-size: .7em;
     }
     .content .imgBox .facebooks {
       top: -28.5%;
       right: 35px;
       height: 55px;
+    }
+  }
+  @media (max-width: 375px){
+    header .lo {
+      height: 300px;
+      width: 200px;
+      top: 195px;
+      right: 5px;
     }
   }
